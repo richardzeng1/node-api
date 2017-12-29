@@ -1,0 +1,24 @@
+{
+  "name": "notable",
+  "version": "1.0.0",
+  "description": "first api",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richardzeng1/node-api.git"
+  },
+  "author": "Richard Zeng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/richardzeng1/node-api/issues"
+  },
+  "homepage": "https://github.com/richardzeng1/node-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.1"
+  }
+}
