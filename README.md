@@ -20,18 +20,18 @@ Now you can run the command whois. See usage for details
 
 ## **Usage**
 
-# *POST*
+### POST
 * Send a POST request using Postman to localhost:8000/notes with parameters title and body. You can specify 
 any values for the keys title and body.
 
-# *GET*
+### GET
 * Send a GET request using Postman to localhost:8000/notes/<id>. The id is the id of the data you are trying to
 access
 
-# *PUT*
+### PUT
 * Send a PUT request using Postman to localhost:8000/notes/<id> with parameters title and body.
 
-# *DELETE*
+### DELETE
 * Send a delete request using Postman to localhost:8000/notes/<id>
 
 ## **Upcoming Updates**
