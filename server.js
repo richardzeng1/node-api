@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({extended:true}));
 MongoClient.connect(db.url, (err, database)=>{
     if (err) return console.log(err);
     // Specifying routes.
-    require('./app/routes')(app, {});
+    require('./app/routes')(app, database);
 
     // Listening on port 8000
     app.listen(port, ()=>{
